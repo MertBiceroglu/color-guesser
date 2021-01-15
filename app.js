@@ -13,7 +13,7 @@ localStorage.setItem('score',0);
 localStorage.setItem('highScore',0);
 let score = localStorage.getItem('score');
 let hScore = localStorage.getItem('highScore');
-
+ 
 
 
 
