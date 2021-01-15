@@ -9,8 +9,13 @@ const highScore = document.querySelector('.highScore');
 const wrapper2 = document.querySelector('.wrapper2');
 const resetHScore = document.querySelector('.resetHScore');
 let dogruCevap;
+localStorage.setItem('score',0);
+localStorage.setItem('highScore',0);
 let score = localStorage.getItem('score');
 let hScore = localStorage.getItem('highScore');
+
+
+
 
 //Oyunu çağırıyorum.
 game();
