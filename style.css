@@ -1,0 +1,105 @@
+body{
+    background-color: seashell;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.wrapper{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-evenly;
+}
+h1, h2{
+    text-shadow: 2px 2px 0 #4074b5,
+    2px -2px 0 #4074b5, -2px 2px 0
+     #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#Score{
+    align-self: center;
+    font-size: 2em;
+    margin-top: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5,
+     2px -2px 0 #4074b5, -2px 2px 0
+      #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    letter-spacing: 3px;
+}
+.reset{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 120px;
+    align-self: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    height: 70px;
+    background-color:seagreen;
+    color: white;
+}
+.reset:hover{
+    background-color:rgb(36, 124, 55);
+    box-shadow: 2px 1px 0.5px 0px rgba(0,0,0,0.75);
+
+}
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 1200px)  {
+    .d{
+        width: 7.5em;
+        height: 7.5em;
+        border-radius: 100%;
+        margin-top: 50px;
+        background-color:black;
+    }
+    .buttonWrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+}
+@media (min-width: 1200px)  {
+    .d{
+        width: 12.5em;
+        height: 12.5em;
+        border-radius: 100%;
+        margin-top: 50px;
+        background-color:black;
+    }
+    h1 {
+        font-size: 3em;
+        text-shadow: 2px 2px 0 #4074b5,
+        2px -2px 0 #4074b5, -2px 2px 0
+         #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+       letter-spacing: 3px;
+       color: #fff;
+    }
+    h2{
+        text-shadow: 2px 2px 0 #4074b5,
+        2px -2px 0 #4074b5, -2px 2px 0
+         #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+       letter-spacing: 3px;
+       color: #fff;
+        font-size: 2em;
+    }
+    .reset{
+        width: 250px !important;
+    }
+}
+.yanlisTahmin{
+    text-shadow: 2px 2px 0 #4074b5,
+    2px -2px 0 #4074b5, -2px 2px 0
+     #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+   letter-spacing: 3px;
+   color: #fff;
+}
